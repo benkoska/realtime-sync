@@ -1,0 +1,29 @@
+{
+    "name": "realtime-sync",
+    "version": "0.0.1",
+    "description": "A framework-agnostic library for real-time sync and offline-support",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build": "tsc"
+    },
+    "keywords": [
+        "real-time"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/benkoska/realtime-sync.git"
+    },
+    "author": "Ben Koska",
+    "license": "MIT",
+    "devDependencies": {
+        "@types/uuid": "^9.0.0",
+        "@types/node": "^18.11.10",
+        "typescript": "^4.9.3"
+    },
+    "dependencies": {
+        "mobx": "^6.7.0",
+        "uuid": "^9.0.0"
+    }
+}
