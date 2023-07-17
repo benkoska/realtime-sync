@@ -1,6 +1,6 @@
 {
     "name": "realtime-sync",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "A framework-agnostic library for real-time sync and offline-support",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
